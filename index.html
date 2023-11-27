@@ -6,8 +6,33 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Hello</h1>
-    <p>Học GIT bài đầu tiên</p>
-    <p>Thay đổi nội dung mới</p>
+    
+        <h1 id="title"></h1>
+
+    <script>
+        var fullName = 'Nguyễn Văn Tèo';
+
+        var age = 20;
+
+        var sex = ['nam', 'nu'];
+
+
+        var people = {
+            fullName : 'Nguyễn Văn Tèo',
+            age : 20,
+            sex : 'Nam',
+            info : function(){
+                return 'Tên: '+this.fullName+ ', Tuổi: '+this.age+ ', Giới tính:'+this.sex
+            }
+        };
+
+        document.getElementById('title').innerHTML = 'Đây là thẻ H1';
+
+        status = false;
+
+        var color;
+
+        console.log(color);
+    </script>
 </body>
 </html>
